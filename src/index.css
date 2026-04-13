@@ -488,53 +488,67 @@ body {
 
 
 
-
 @media (max-width: 430px) {
+
   .hero-container {
-  min-height: 100svh;
-  position: relative;
-  padding-top: 10px;
-}
+    flex-direction: column;   /* 🔥 MOST IMPORTANT FIX */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100svh;
+    text-align: center;
+  }
 
-.hero-text-container {
-  margin-left: 50px;
-  opacity: .7 ;
-  width: 100%;
-  text-align: center;
-}
+  .hero-text-container {
+    margin-left: 0;   /* ❌ remove weird offset */
+    width: 100%;
+  }
 
-.hero-text-container h1 {
-  font-size: 60px;
-  line-height: 1.4;
-}
-.thaj{
-  font-size: 90px;
-}
-.hero-text-container h2 {
-  font-size: 15px;
-  width: 130px;
-  margin: 0 auto;
-}
+  .hero-text-container h1 {
+    font-size: 42px;
+    line-height: 1.2;
+  }
 
-.stickynotes-container {
-  grid-template-columns: repeat(2, 100px);
-  gap: 0;
-  width: max-content;   
-  margin: 0 auto;      
-  padding: 9px;
-}
-.sticky-note img {
-  width: 50px;
-  height: 50px;
-}
-.sticky-note span {
-  font-size: 9px; 
-}
-.profile-image-container{
+  .thaj {
+    font-size: 60px;   /* ❌ 90px was too big */
+  }
+
+  .hero-text-container h2 {
+    font-size: 14px;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  /* ✅ IMAGE FIX */
+  .profile-image-container {
+    width: 70%;
+    max-width: 280px;
+    margin-top: 20px;
+    right: 0;
+  }
+
+  /* ✅ STICKY NOTES FIX */
+  .stickynotes-container {
+    position: static;   /* 🔥 CRITICAL FIX */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    justify-items: center;
+  }
+
+  .sticky-note img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .sticky-note span {
+    font-size: 10px;
+  }
+  .profile-image-container{
   margin-top: 120px;
 }
 .profile-image-container img{
   width:200px;
 }
-
 }
