@@ -126,7 +126,7 @@ body {
   background-image: url("./dotted.svg");
   background-repeat: repeat-y;
   background-size: 100% auto;
-  height: 100vh;
+  height: 100svh;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -490,6 +490,11 @@ body {
 
 
 @media (max-width: 430px) {
+  html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
   .hero-container {
   min-height: 100svh;
   position: relative;
