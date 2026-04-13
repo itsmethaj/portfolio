@@ -119,7 +119,7 @@ body {
 
 /*about page*/
 .aboutme-container {
-  background-image: url("./dotted.svg");
+  background-image: url("/dotted.svg");
   background-repeat: repeat-y;
   background-size: 100% auto;
   height: 100svh;
@@ -173,7 +173,7 @@ body {
 
 /*Projects page*/
 .projects-container {
-  background-image: url("./grid.svg");
+  background-image: url("/grid.svg");
   background-repeat: repeat-y;
   background-size: 100% auto;
   min-height: 100vh;
@@ -257,7 +257,7 @@ body {
 
 /*Contact Page*/
 .contact-container {
-  background-image: url("./lastpage.svg");
+  background-image: url("/lastpage.svg");
   background-repeat: repeat-y;
   background-size: 100% auto;
   position: relative;
@@ -334,7 +334,7 @@ body {
 
 /*Blog page*/
 .blog-container {
-  background-image: url("./canvas.svg");
+  background-image: url("/canvas.svg");
   background-repeat: repeat-y;
   background-size: 100% auto;
   position: relative;
