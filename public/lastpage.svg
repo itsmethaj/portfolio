@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="100%" height="100%" fill="#fffef9"/>
+
+  <!-- lined background -->
+  <defs>
+    <pattern id="lines" width="1440" height="32" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="31" x2="1440" y2="31" stroke="#c8c8c8" stroke-width="0.7" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#lines)"/>
+
+  <!-- scribble circles -->
+  <circle cx="120" cy="120" r="40" fill="none" stroke="#2b2b2b" stroke-width="1.5" opacity="0.3" stroke-dasharray="4,3"/>
+  <circle cx="115" cy="115" r="50" fill="none" stroke="#2b2b2b" stroke-width="1" opacity="0.2" stroke-dasharray="3,5"/>
+
+  <!-- rough star top left -->
+  <path d="M200,60 L210,85 L235,85 L215,100 L225,125 L200,110 L175,125 L185,100 L165,85 L190,85 Z" fill="none" stroke="#2b2b2b" stroke-width="1.5" opacity="0.25" stroke-linejoin="round"/>
+
+  <!-- random scribble lines top -->
+  <path d="M300,40 C320,30 340,50 360,35 C380,20 400,45 420,30" fill="none" stroke="#2b2b2b" stroke-width="1.2" opacity="0.2" stroke-linecap="round"/>
+  <path d="M305,50 C325,40 345,58 365,43" fill="none" stroke="#2b2b2b" stroke-width="0.8" opacity="0.15" stroke-linecap="round"/>
+
+  <!-- sun doodle top right -->
+  <circle cx="1300" cy="100" r="35" fill="none" stroke="#f9c74f" stroke-width="2" opacity="0.5"/>
+  <line x1="1300" y1="50" x2="1300" y2="35" stroke="#f9c74f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1300" y1="150" x2="1300" y2="165" stroke="#f9c74f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1250" y1="100" x2="1235" y2="100" stroke="#f9c74f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1350" y1="100" x2="1365" y2="100" stroke="#f9c74f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1265" y1="65" x2="1254" y2="54" stroke="#f9c74f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1335" y1="135" x2="1346" y2="146" stroke="#f9c74f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1335" y1="65" x2="1346" y2="54" stroke="#f9c74f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1265" y1="135" x2="1254" y2="146" stroke="#f9c74f" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- arrow doodle -->
+  <path d="M500,80 C530,60 560,90 590,70" fill="none" stroke="#2b2b2b" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+  <path d="M583,63 L590,70 L581,75" fill="none" stroke="#2b2b2b" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+
+  <!-- house doodle left mid -->
+  <path d="M80,400 L80,480 L160,480 L160,400 L120,360 Z" fill="none" stroke="#2b2b2b" stroke-width="1.5" opacity="0.2" stroke-linejoin="round"/>
+  <rect x="105" y="445" width="30" height="35" fill="none" stroke="#2b2b2b" stroke-width="1.2" opacity="0.2"/>
+  <rect x="88" y="415" width="25" height="20" fill="none" stroke="#2b2b2b" stroke-width="1.2" opacity="0.2"/>
+
+  <!-- random math scribble -->
+  <text x="650" y="150" font-family="serif" font-size="18" fill="#2b2b2b" opacity="0.15" transform="rotate(-5, 650, 150)">x² + y² = r²</text>
+  <text x="900" y="200" font-family="serif" font-size="16" fill="#2b2b2b" opacity="0.12" transform="rotate(3, 900, 200)">f(x) = mx + c</text>
+  <text x="200" y="300" font-family="serif" font-size="14" fill="#2b2b2b" opacity="0.1" transform="rotate(-3, 200, 300)">E = mc²</text>
+
+  <!-- cloud doodle top center -->
+  <path d="M680,80 Q690,60 710,65 Q715,45 735,50 Q755,45 760,65 Q780,60 780,80 Q780,95 760,95 L700,95 Q680,95 680,80 Z" fill="none" stroke="#2b2b2b" stroke-width="1.2" opacity="0.2"/>
+
+  <!-- heart doodle -->
+  <path d="M1100,300 C1100,285 1115,275 1125,285 C1135,275 1150,285 1150,300 C1150,320 1125,340 1125,340 C1125,340 1100,320 1100,300 Z" fill="none" stroke="#f4845f" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- zigzag scribble bottom left -->
+  <path d="M50,700 L80,670 L110,700 L140,670 L170,700 L200,670 L230,700" fill="none" stroke="#2b2b2b" stroke-width="1.2" opacity="0.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- rough rectangle/box doodle -->
+  <rect x="900" y="500" width="180" height="120" fill="none" stroke="#2b2b2b" stroke-width="1.5" opacity="0.18" rx="2" transform="rotate(-3, 900, 500)"/>
+  <line x1="910" y1="530" x2="1070" y2="530" stroke="#2b2b2b" stroke-width="1" opacity="0.15"/>
+  <line x1="910" y1="550" x2="1050" y2="550" stroke="#2b2b2b" stroke-width="1" opacity="0.15"/>
+  <line x1="910" y1="570" x2="1060" y2="570" stroke="#2b2b2b" stroke-width="1" opacity="0.15"/>
+
+  <!-- scattered dots -->
+  <circle cx="400" cy="300" r="3" fill="#43aa8b" opacity="0.3"/>
+  <circle cx="700" cy="500" r="3" fill="#f9c74f" opacity="0.3"/>
+  <circle cx="1100" cy="150" r="3" fill="#f4845f" opacity="0.3"/>
+  <circle cx="200" cy="600" r="3" fill="#c77dff" opacity="0.3"/>
+  <circle cx="1300" cy="600" r="3" fill="#43aa8b" opacity="0.3"/>
+  <circle cx="600" cy="750" r="3" fill="#f4845f" opacity="0.3"/>
+
+  <!-- stars scattered -->
+  <text x="350" y="450" font-size="18" fill="#f9c74f" opacity="0.4">✦</text>
+  <text x="1050" y="400" font-size="14" fill="#f9c74f" opacity="0.35">✦</text>
+  <text x="750" y="700" font-size="16" fill="#f9c74f" opacity="0.3">✦</text>
+  <text x="100" y="200" font-size="12" fill="#f9c74f" opacity="0.3">✦</text>
+
+  <!-- wavy line bottom -->
+  <path d="M0,860 C100,840 200,870 300,850 C400,830 500,860 600,845 C700,830 800,860 900,845 C1000,830 1100,860 1200,845 C1300,830 1380,855 1440,845" fill="none" stroke="#2b2b2b" stroke-width="1" opacity="0.15" stroke-linecap="round"/>
+
+  <!-- smiley face bottom right -->
+  <circle cx="1350" cy="780" r="40" fill="none" stroke="#2b2b2b" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="1338" cy="770" r="4" fill="#2b2b2b" opacity="0.25"/>
+  <circle cx="1362" cy="770" r="4" fill="#2b2b2b" opacity="0.25"/>
+  <path d="M1335,790 Q1350,805 1365,790" fill="none" stroke="#2b2b2b" stroke-width="1.5" opacity="0.25" stroke-linecap="round"/>
+
+  <!-- pencil scribble area center -->
+  <path d="M580,400 C600,390 620,410 640,395 C660,380 680,405 700,392" fill="none" stroke="#2b2b2b" stroke-width="1" opacity="0.12" stroke-linecap="round"/>
+  <path d="M575,412 C595,402 615,418 635,406" fill="none" stroke="#2b2b2b" stroke-width="0.8" opacity="0.1" stroke-linecap="round"/>
+
+  <!-- flower doodle -->
+  <circle cx="250" cy="750" r="12" fill="none" stroke="#f4845f" stroke-width="1.2" opacity="0.3"/>
+  <ellipse cx="250" cy="728" rx="8" ry="12" fill="none" stroke="#f4845f" stroke-width="1.2" opacity="0.25"/>
+  <ellipse cx="250" cy="772" rx="8" ry="12" fill="none" stroke="#f4845f" stroke-width="1.2" opacity="0.25"/>
+  <ellipse cx="228" cy="750" rx="12" ry="8" fill="none" stroke="#f4845f" stroke-width="1.2" opacity="0.25"/>
+  <ellipse cx="272" cy="750" rx="12" ry="8" fill="none" stroke="#f4845f" stroke-width="1.2" opacity="0.25"/>
+
+  <!-- todo list scribble -->
+  <text x="1150" y="700" font-family="monospace" font-size="13" fill="#2b2b2b" opacity="0.15" transform="rotate(2, 1150, 700)">[ ] finish project</text>
+  <text x="1150" y="720" font-family="monospace" font-size="13" fill="#2b2b2b" opacity="0.15" transform="rotate(2, 1150, 720)">[x] drink chai</text>
+  <text x="1150" y="740" font-family="monospace" font-size="13" fill="#2b2b2b" opacity="0.15" transform="rotate(2, 1150, 740)">[ ] sleep</text>
+
+</svg>
