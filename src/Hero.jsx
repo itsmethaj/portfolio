@@ -3,13 +3,18 @@ function Hero() {
   return (
     <div className="hero-container">
       <div className="hero-text-container">
-        <h1>
-          It's me{" "}
-          <span className="thaj">
-            <b>Thaj</b>
-          </span>
-        </h1>
-        <h2>CS Student & Web Developer</h2>
+        <div className="hero-text-wrapper">
+          {" "}
+          {/* ← new wrapper */}
+          <h1>
+            It's me{" "}
+            <span className="thaj">
+              <b>Thaj</b>
+            </span>
+          </h1>
+          <h2>CS Student & Web Developer</h2>
+        </div>
+
         <div className="stickynotes-container">
           <a className="sticky-note" href="#about">
             <img src="/sticky4.svg" alt="" />
