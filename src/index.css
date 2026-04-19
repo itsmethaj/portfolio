@@ -51,7 +51,7 @@ body {
   gap: 30px;
   align-items: center;
   justify-content: space-between;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .hero-text-container {
@@ -156,7 +156,6 @@ body {
   justify-content: center;
   width: 60%;
   max-width: 400px;
-  min-width: 0px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -166,6 +165,8 @@ body {
   height: auto;
   object-fit: contain;
   display: block;
+  padding-bottom: 0;
+  margin-bottom : 0;
 }
 
 .hero-text-container,
@@ -482,45 +483,8 @@ body {
   transform: translateX(-3px);
 }
 
-/* Override for desktop mode on mobile - force mobile layout on small physical screens */
-@media (max-device-width: 767px) {
-  .hero-container {
-    flex-direction: column !important;
-  }
-  
-  .profile-image-container {
-    padding-right: 0 !important;
-  }
-  
-  .hero-text-container {
-    padding-left: 2vh !important;
-  }
-  
-  .stickynotes-container {
-    grid-template-columns: 1fr 1fr !important;
-  }
-  
-  .rectangle-container {
-    grid-template-columns: 1fr !important;
-  }
-  
-  .contact-icons {
-    grid-template-columns: 1fr !important;
-    scale: 1 !important;
-  }
-  
-  .card-container {
-    grid-template-columns: 1fr !important;
-  }
-  
-  .card {
-    scale: 1 !important;
-  }
-}
-
 /* Responsive breakpoints */
-/* Tablet and up - but not on tiny physical screens even if desktop mode is enabled */
-@media (min-width: 768px) and (min-device-width: 768px) {
+@media (min-width: 768px) {
   .block {
     display: inline-block;
   }
@@ -585,8 +549,7 @@ body {
 }
 }
 
-/* Desktop - but not on tiny physical screens even if desktop mode is enabled */
-@media (min-width: 1526px) and (min-device-width: 1024px) {
+@media (min-width: 1526px) {
   body {
     height: 100dvh;
   }
