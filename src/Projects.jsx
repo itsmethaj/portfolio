@@ -26,12 +26,6 @@ function Projects() {
         "Built this in C to actually understand data structures, not just read about them.",
     },
     {
-      title: "ALGO",
-      category: "Department Website",
-      paragraph:
-        "My CS department didn't have a website,so I vibe-coded one.",
-    },
-    {
       title: "Gym Membership System",
       category: "Database Project",
       paragraph:
