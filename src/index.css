@@ -629,7 +629,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 60px;
     scale: 1.9;
-    margin-top: 8%;
+    margin: 15vh auto;
   }
   .rectangle-container{
     margin: 15vh auto;
@@ -638,6 +638,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+  margin: 15vh auto;
 }
 .card{
   scale: 1.3;
