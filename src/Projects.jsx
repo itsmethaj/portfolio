@@ -1,13 +1,15 @@
-function ProjectCard({ title, category, paragraph }) {
+function ProjectCard({ title, category, paragraph , link }) {
   return (
-    <div className="rectangle">
-      <h2>
-        <span className="title">{title}</span>
-        <br />
-        <span className="category">{category}</span>
-      </h2>
-      <p>{paragraph}</p>
-    </div>
+    <a href={link} target="_blank" rel="noopener noreferrer" className="rectangle-link">
+      <div className="rectangle">
+        <h2>
+          <span className="title">{title}</span>
+          <br />
+          <span className="category">{category}</span>
+        </h2>
+        <p>{paragraph}</p>
+      </div>
+    </a>
   );
 }
 
@@ -18,18 +20,22 @@ function Projects() {
       category: "YouTube UI Clone",
       paragraph:
         "A YouTube UI clone that went from static HTML to live API data. dark, glassy, and actually works.",
+      link: "https://itsmethaj.github.io/glassy-tube/",
     },
     {
       title: "Hospital Management System",
       category: "CLI App",
       paragraph:
         "Built this in C to actually understand data structures, not just read about them.",
+      link: "https://drive.google.com/file/d/103iFRL1LKLy7hxfRZrvajhxV3IBMkH0S/view?usp=drive_link",
     },
     {
       title: "Gym Membership System",
       category: "Database Project",
       paragraph:
         "Designed a full database from scratch . 7 tables, real relationships, the whole thing.",
+
+      link: "https://drive.google.com/file/d/1pW7xIoTICTCj0ZfJt-rcK1XjAqawtC9r/view?usp=drive_link",
     },
   ];
 
@@ -43,6 +49,7 @@ function Projects() {
             title={item.title}
             category={item.category}
             paragraph={item.paragraph}
+            link={item.link}
           />
         ))}
       </div>

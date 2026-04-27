@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+
+  <defs>
+    <!-- background gradient uses CSS variables -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="var(--bg1)"/>
+      <stop offset="100%" stop-color="var(--bg2)"/>
+    </linearGradient>
+
+    <!-- lines -->
+    <pattern id="lines" width="100%" height="32" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="31" x2="100%" y2="31" stroke="var(--line-color)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <rect width="100%" height="100%" fill="url(#lines)" opacity="0.3"/>
+
+  <!-- main doodles -->
+  <g stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- circles -->
+    <circle cx="8%" cy="13%" r="2.5%" stroke-width="2" stroke-dasharray="5,4" opacity="0.6"/>
+    <circle cx="7%" cy="11%" r="3%" stroke-width="1.5" stroke-dasharray="4,6" opacity="0.5"/>
+
+    <!-- scribble -->
+    <path d="M 25% 5% Q 30% 3% 35% 6% T 45% 4%" stroke-width="1.5" opacity="0.5"/>
+
+    <!-- house -->
+    <path d="M 4% 45% l 0% 8% l 5% 0% l 0% -8% l -2.5% -3% z" stroke-width="1.8" opacity="0.6"/>
+
+    <!-- equations -->
+    <text x="12%" y="38%" font-size="1.4rem" fill="currentColor" opacity="0.6">E = mc²</text>
+
+    <!-- smiley -->
+    <circle cx="90%" cy="85%" r="3%" stroke-width="1.8" opacity="0.6"/>
+    <circle cx="88.5%" cy="83%" r="0.4%" fill="currentColor"/>
+    <circle cx="91.5%" cy="83%" r="0.4%" fill="currentColor"/>
+
+    <!-- wave -->
+    <path d="M 0% 95% C 10% 93% 20% 96% 30% 94%" stroke-width="1.5" opacity="0.5"/>
+
+  </g>
+
+  <!-- accents -->
+  <circle cx="55%" cy="25%" r="0.3%" fill="var(--accent1)"/>
+  <circle cx="75%" cy="52%" r="0.3%" fill="var(--accent2)"/>
+
+</svg>

@@ -28,14 +28,14 @@ function Hero() {
             <span>Projects</span>
           </a>
 
-          <a className="sticky-note" href="#blog">
-            <img src="/sticky2.svg" alt="Blog" />
-            <span>Blog</span>
+          <a className="sticky-note" href="#contact">
+            <img src="/sticky2.svg" alt="Contact" />
+            <span>Contact</span>
           </a>
 
-          <a className="sticky-note" href="#contact">
-            <img src="/sticky1.svg" alt="Contact" />
-            <span>Contact</span>
+          <a className="sticky-note" href="#blog">
+            <img src="/sticky1.svg" alt="Blog" />
+            <span>Blog</span>
           </a>
         </div>
       </div>
